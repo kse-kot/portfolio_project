@@ -11,10 +11,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
 	font-family: var(--heading-font-family);
 	font-weight: bold;
 	text-align: center;
@@ -49,4 +46,41 @@ p i {
 	color: white;
 	padding: 18px 25px;
 	font-weight: 500;
+}
+
+.btn-project {
+	background-color: transparent;
+	border-color: var(--secondary-color);
+	color: var(--secondary-color);
+	padding: 18px 25px;
+}
+
+.projects h2 {
+	font-size: 60px;
+}
+
+.projects p {
+	line-height: 1.8;
+}
+
+.project-details {
+	padding: 80px;
+}
+
+@media (max-width: 576px) {
+	.hero {
+		padding: 70px 0;
+	}
+
+	.hero h1 {
+		font-size: 48px;
+	}
+
+	.projects h2 {
+		font-size: 44px;
+	}
+
+	.project-details {
+		padding: 20px;
+	}
 }

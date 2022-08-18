@@ -41,7 +41,7 @@ p i {
 	margin: 0;
 }
 
-.hero .btn-branding {
+.btn-branding {
 	background-color: var(--secondary-color);
 	color: white;
 	padding: 18px 25px;
@@ -67,6 +67,34 @@ p i {
 	padding: 80px;
 }
 
+/* about.html specific styles */
+
+.hero-info {
+	padding: 150px 0;
+}
+
+.hero-info h1 {
+	font-size: 60px;
+	line-height: 1.1;
+}
+
+.hero-info h2 {
+	font-family: var(--body-font-family);
+	font-size: 18px;
+}
+
+.hero-info-content {
+	padding: 80px;
+}
+
+.hero-info-content p {
+	line-height: 1.7;
+}
+
+.hero-info img {
+	max-height: 538px;
+}
+
 @media (max-width: 576px) {
 	.hero {
 		padding: 70px 0;
@@ -82,5 +110,21 @@ p i {
 
 	.project-details {
 		padding: 20px;
+	}
+
+	.hero-info {
+		padding: 70px 0;
+	}
+
+	.hero-info-content {
+		padding: 45px;
+	}
+
+	.hero-info h1 {
+		font-size: 40px;
+	}
+
+	.hero-info img {
+		max-height: 338px;
 	}
 }

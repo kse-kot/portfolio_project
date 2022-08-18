@@ -10,9 +10,14 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
 	font-family: var(--heading-font-family);
+	font-weight: bold;
+	text-align: center;
+}
+
+h3 {
+	font-family: var(--body-font-family);
 	font-weight: bold;
 	text-align: center;
 }
@@ -69,29 +74,29 @@ p i {
 
 /* about.html specific styles */
 
-.hero-info {
+.content-container {
 	padding: 150px 0;
 }
 
-.hero-info h1 {
+.content-container h1 {
 	font-size: 60px;
 	line-height: 1.1;
 }
 
-.hero-info h2 {
+.content-container h2 {
 	font-family: var(--body-font-family);
 	font-size: 18px;
 }
 
-.hero-info-content {
+.content {
 	padding: 80px;
 }
 
-.hero-info-content p {
+.content p {
 	line-height: 1.7;
 }
 
-.hero-info img {
+#hero-photo {
 	max-height: 538px;
 }
 
@@ -112,19 +117,19 @@ p i {
 		padding: 20px;
 	}
 
-	.hero-info {
+	.content-container {
 		padding: 70px 0;
 	}
 
-	.hero-info-content {
+	.content {
 		padding: 45px;
 	}
 
-	.hero-info h1 {
+	.content-container h1 {
 		font-size: 40px;
 	}
 
-	.hero-info img {
+	#hero-photo {
 		max-height: 338px;
 	}
 }

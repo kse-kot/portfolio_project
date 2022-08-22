@@ -25,6 +25,36 @@ p i {
 	color: green;
 }
 
+nav {
+	padding: 20px 0;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	line-height: 42px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+	margin-right: 5px;
+}
+
+nav li a:hover,
+nav li a.active {
+	color: var(--secondary-color);
+}
+
+#hero-photo {
+	max-height: 538px;
+}
+
 .hero {
 	background-color: var(--branding-color);
 	padding: 120px 20px;
@@ -95,8 +125,8 @@ p i {
 	line-height: 1.7;
 }
 
-#hero-photo {
-	max-height: 538px;
+.logo {
+	max-height: 40px;
 }
 
 @media (max-width: 576px) {
@@ -130,5 +160,9 @@ p i {
 
 	#hero-photo {
 		max-height: 338px;
+	}
+
+	nav li a {
+		margin-right: 10px;
 	}
 }
